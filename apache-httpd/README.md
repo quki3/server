@@ -9,3 +9,5 @@
    - `dpkg -l | grep libaprutil`
 2. - Perl-Compatible Regular Expressions Library (PCRE) check if exist
    - install `sudo apt-get install libpcre3 libpcre3-dev`
+3. - dowload
+4. - extract
