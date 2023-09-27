@@ -11,3 +11,4 @@
    - install `sudo apt-get install libpcre3 libpcre3-dev`
 3. - dowload
 4. - extract
+5. - configuring
