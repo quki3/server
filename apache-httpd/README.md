@@ -48,3 +48,5 @@ Server Version: 2.4.57
 ```
 6. make
 7. make install
+8. sudo /usr/sbin/apachectl start
+   - check /localhost/
