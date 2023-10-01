@@ -33,5 +33,16 @@ mv apr-util-1.6.1 apr-util
 Now, it should read the .apr files from that folder. After that it will ask for apr-util too, make sure you follow the same procedure.
 
 Hope this helps!
+```
 
-          ```
+- and the default output is like this
+```bash
+Server Version: 2.4.57
+    Install prefix: /usr/local/apache2
+    C compiler:     gcc
+    CFLAGS:          -g -O2  
+    CPPFLAGS:        -DLINUX -D_REENTRANT -D_GNU_SOURCE  
+    LDFLAGS:           
+    LIBS:             
+    C preprocessor: gcc -E
+```
