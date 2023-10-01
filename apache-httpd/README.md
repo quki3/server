@@ -46,3 +46,5 @@ Server Version: 2.4.57
     LIBS:             
     C preprocessor: gcc -E
 ```
+6. make
+7. make install
