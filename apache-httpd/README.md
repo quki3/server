@@ -46,3 +46,4 @@ Server Version: 2.4.57
 8. sudo /usr/sbin/apachectl start
    - check /localhost/
 9. puertos abiertos en el sistema mediante este comando `sudo lsof -i -P -n` then `sudo lsof -i -P -n | grep LISTEN`
+10.  virtual host configuration `apache2ctl -S` <a href="https://docs.bluehosting.cl/troubleshooting/servidores/guia-de-solucion-de-problemas-comunes-de-apache.html"> see</a>
