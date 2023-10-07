@@ -16,14 +16,9 @@
         - To configure the source tree using all the default options, simply type ./configure.
                 - if you have this error `apr not found`
                 - do this
-```bash
-               
-
 In the directory where you have installed the apache httpd distribution there is a directory that is called /srclib
 
-You cd into that directory cd /srclib. Make sure you are in that folder. Now open your browser and go to http://apr.apache.org/download.cgi and download the apr-*.tar.gz files into this directory.
-
-wget <link>
+You cd into that directory cd /srclib. Make sure you are in that folder. Now open your browser and go to <a href="http://apr.apache.org/download.cgi">here</a> and download the apr-*.tar.gz files into this directory.
 
 Unzip and extract them into srclib directory after extracting make sure you rename the apr-* directories to just "apr" and "apr-util", respectively. For example:
 
@@ -33,8 +28,6 @@ mv apr-util-1.6.1 apr-util
 Now, it should read the .apr files from that folder. After that it will ask for apr-util too, make sure you follow the same procedure.
 
 Hope this helps!
-```
-
 - and the default output is like this
 ```bash
 Server Version: 2.4.57
@@ -47,6 +40,9 @@ Server Version: 2.4.57
     C preprocessor: gcc -E
 ```
 6. make
+
 7. make install
+ 
 8. sudo /usr/sbin/apachectl start
    - check /localhost/
+9. puertos abiertos en el sistema mediante este comando `sudo lsof -i -P -n` then `sudo lsof -i -P -n | grep LISTEN`
